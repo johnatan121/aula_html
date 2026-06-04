@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: rgb(18, 18, 208);
+            color: black;
+        }
+        th, td{ 
+            border-bottom: 1px solid #801111;
+            padding: 12px;
+            text-align: left;
+        }
+        tfoot{
+            background-color: aquamarine;
+        }
+        tfoot td{
+            text-align: center;
+        }
+        #numero{
+            text-align: left;
+        }
+        tbody{
+            background-color: antiquewhite;
+            transition: 06s;
+        }
+        tbody tr:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>idade</th>
+                <th>cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>andre</td>
+                <td>29</td>
+                <td>goiania</td>
+            </tr>
+            <tr>
+                <td>luiz</td>
+                <td>39</td>
+                <td>trindade</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    total de alunos:
+                </td>
+                <td id="numero">2</td>
+
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

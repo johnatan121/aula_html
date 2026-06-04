@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+/*estilo para cabecario*/
+ header{
+    background-color: rgb(40, 209, 34);
+    color: rgb(192, 34, 84);
+    padding: 20px;
+    text-align: center;
+ }
+ nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+ }
+ nav a {
+    color: #f9f5f5;
+    text-decoration: none;
+    transition: 0,6s;
+ }
+ nav a:hover{
+    text-decoration: underline;
+    color: rgb(38, 103, 160);
+ }
+ /*estilizando o men*/
+ .apresentacao, .contato{
+    padding: 40px;
+    text-align: center;
+    background-color: #f3f3f3;
+ }
+
+ .apresentacao, .contato p{
+    margin-top: 20px;
+    color: #555;
+ }
+ /*estilo cards*/
+ .cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+ }
+ .card{
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    transition: 0.6s;
+ }
+ .card:hover{
+    transform: translateY(10px);
+ }
+
